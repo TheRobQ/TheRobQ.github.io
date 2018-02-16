@@ -173,7 +173,8 @@ header.masthead {
   display: block;
   max-width: 650px;
   margin: 0 auto;
-padding-right: 6px;}
+  padding-right: 4px;
+padding-left: 2px;}
   .portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;

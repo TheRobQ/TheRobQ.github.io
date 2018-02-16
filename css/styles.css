@@ -71,8 +71,12 @@
 }
 
 .img-fluid{
-  height:300px !important;
+  height: 275px !important;
   object-fit: cover;
+}
+
+#portHeader{
+  margin-bottom: 25px;
 }
 @media (max-width: 390px) {
   #resume{
