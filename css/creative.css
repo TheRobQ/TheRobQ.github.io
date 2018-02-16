@@ -137,7 +137,7 @@ body {
 header.masthead {
   padding-top: 14rem;
   padding-bottom: calc(14rem - 56px);
-  background-image: url("../img/mountains.jpg");
+  background-image: url("./img/mountains.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
