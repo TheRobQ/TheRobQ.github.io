@@ -62,7 +62,7 @@
   }
 
   #bigWords{
-    margin-top: -85px;
+    margin-top: -75px;
     font-size: 50px;
   }
   #services{
@@ -71,8 +71,8 @@
 }
 
 .img-fluid{
-  height: 275px !important;
-  object-fit: cover;
+  height: 255px !important;
+  object-fit: fill;
 }
 
 #portHeader{
@@ -94,7 +94,7 @@
     disaply:none;
   }
   #bigWords{
-    margin-top: -85px;
+    margin-top: -75px;
     font-size: 35px;
   }
 
@@ -105,4 +105,7 @@
   #services{
     padding-top:12px !important
   }
+   #moveup{
+     display:none;
+   }
 }
