@@ -91,7 +91,7 @@
   }
   #moveup{
     margin-top: -85px;
-    disaply:none;
+    /* disaply:none; */
   }
   #bigWords{
     margin-top: -75px;
@@ -105,7 +105,5 @@
   #services{
     padding-top:12px !important
   }
-   #moveup{
-     display:none;
-   }
+
 }
