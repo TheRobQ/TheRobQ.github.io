@@ -58,7 +58,7 @@
     height: 800px;
   }
   #moveup{
-    margin-top: -95px;
+    margin-top: -75px;
   }
 
   #bigWords{
@@ -67,6 +67,9 @@
   }
   #services{
     padding-top:12px !important
+  }
+  .text-faded{
+    display: none;
   }
 }
 
