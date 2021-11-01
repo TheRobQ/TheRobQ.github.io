@@ -55,7 +55,7 @@
 <body>
   <iframe src="https://integration-poc.lpvoice.dev" id="frame"></iframe> 
    <script>
-    var frame = document.getElementById('frame').contentWindow; 
+    var frame = document.getElementById('frame'); 
     frame.addEventListener("load", function() {
       frame.postMessage('here the token is set and we can work with it', "*");
     }); 
