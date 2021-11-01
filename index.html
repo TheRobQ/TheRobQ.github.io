@@ -55,11 +55,11 @@
 <body>
   <iframe src="https://integration-poc.lpvoice.dev" id="frame"></iframe> 
    <script>
-    var x = document.getElementById('frame').contentWindow; 
-    //console.log(x)
-    setTimeout( () => { 
-      console.log('timed');
-      x.postMessage('here the token is set and we can work with it', "*"); } , 4000 );
+    var frame = document.getElementById('frame').contentWindow; 
+    frame.addEventListener("load", function() {
+      frame.postMessage('here the token is set and we can work with it', "*");
+    }); 
+    
   </script>
 </body>
 </html>
